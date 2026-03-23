@@ -1,55 +1,27 @@
-# Homebrew Tap for clickup-agent-chat
+# STR-Consulting Homebrew Tap
 
-This is the official Homebrew tap for [clickup-agent-chat](https://github.com/STR-Consulting/clickup-agent-chat), an MCP server for ClickUp Agent Notes.
+Shared Homebrew tap for STR-Consulting CLI tools.
 
 ## Installation
 
 ```bash
-brew tap STR-Consulting/clickup-agent-chat
-brew install clickup-agent-chat
+brew tap STR-Consulting/tap
+brew install cupa
 ```
 
-## Configuration
+## Formulae
 
-### Claude Code
-
-```bash
-claude mcp add agent-notes -- $(brew --prefix)/bin/clickup-agent-chat
-```
-
-Set your ClickUp token:
-
-```bash
-export CLICKUP_TOKEN="pk_..."
-```
-
-### Other MCP Clients
-
-```json
-{
-  "mcpServers": {
-    "agent-notes": {
-      "command": "/opt/homebrew/bin/clickup-agent-chat",
-      "env": { "CLICKUP_TOKEN": "pk_..." }
-    }
-  }
-}
-```
+| Formula | Description |
+|---------|-------------|
+| `cupa` | MCP server for ClickUp Agent Notes cross-agent conversation |
 
 ## Updating
 
 ```bash
 brew update
-brew upgrade clickup-agent-chat
-```
-
-## Uninstalling
-
-```bash
-brew uninstall clickup-agent-chat
-brew untap STR-Consulting/clickup-agent-chat
+brew upgrade cupa
 ```
 
 ## Issues
 
-Report issues at [STR-Consulting/clickup-agent-chat](https://github.com/STR-Consulting/clickup-agent-chat/issues).
+Report issues at [STR-Consulting/cupa](https://github.com/STR-Consulting/cupa/issues).
