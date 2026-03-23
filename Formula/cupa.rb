@@ -1,12 +1,12 @@
 class Cupa < Formula
   desc "MCP server for ClickUp Agent Notes cross-agent conversation"
   homepage "https://github.com/STR-Consulting/cupa"
-  version "0.11.0"
+  version "0.12.0"
   license "MIT"
 
   on_arm do
-    url "https://github.com/STR-Consulting/cupa/releases/download/v0.11.0/cupa_0.11.0_darwin_arm64.tar.gz"
-    sha256 "c41144fadad7b0f413bbfba936b49d34f5d12cd9a584afde85e9fd18b61f6c0e"
+    url "https://github.com/STR-Consulting/cupa/releases/download/v0.12.0/cupa_0.12.0_darwin_arm64.tar.gz"
+    sha256 "8bad2b369303d332ff136ce7d073d5eca1e137d42fe72c10dfc6c44d9e4d3621"
   end
 
   def install
