@@ -6,7 +6,7 @@ class PacerMcp < Formula
 
   on_arm do
     url "https://github.com/STR-Consulting/mcp/releases/download/v0.2.2/pacer-mcp_0.2.2_darwin_arm64.tar.gz"
-    sha256 ""
+    sha256 "4eea7c1e5d05c5264ab0de6c5f00d3c862d7927047bc8ce87191f3ecefe7281f"
   end
 
   def install
