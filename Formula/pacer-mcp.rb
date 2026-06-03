@@ -1,12 +1,12 @@
 class PacerMcp < Formula
   desc "MCP server exposing pacer/core API endpoints as Claude Code tools"
   homepage "https://github.com/STR-Consulting/mcp"
-  version "0.7.0"
+  version "0.7.1"
   license "MIT"
 
   on_arm do
-    url "https://github.com/STR-Consulting/mcp/releases/download/v0.7.0/pacer-mcp_0.7.0_darwin_arm64.tar.gz"
-    sha256 "05fbb06a39fe392b72ae80c0b0232e419721b62896faced80f5bcce653195a28"
+    url "https://github.com/STR-Consulting/mcp/releases/download/v0.7.1/pacer-mcp_0.7.1_darwin_arm64.tar.gz"
+    sha256 "b22e7e11b3efde034ca67adde626291b28ddfc080a0b7c12d59ad5d64525825c"
   end
 
   def install
